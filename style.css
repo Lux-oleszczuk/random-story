@@ -7,6 +7,23 @@
 body {
     width: 100vw;
 }
+
+/* resizing content - mobile first content/ breakpoints
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {}
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {}
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {}
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {}
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {} 
+
 /* container - cennters all content within container */
 .container {
     width: 100%;
@@ -17,6 +34,7 @@ body {
     align-items: center;
     /* justyfying content horizontally - centered */
     justify-content: center;
+
 }
 #first-div {
     background-color: rgb(39, 132, 110);
@@ -29,11 +47,13 @@ body {
 }
 #forth-div {
     background-color: blue;
+    position: relative;
 }
 #rounded-img {
     border: 5px solid rgb(116, 25, 25);
     border-radius: 50%;
 }
+
 img {
     width: 30%;
     height: 70%;
@@ -41,10 +61,6 @@ img {
 p {
     margin: 20px 0;
 }
-/* divs shared background */
-/* .green-bg {
-    background-color: rgb(11, 65, 27);
-} */
 
  /* animation class and keyframe */
 @keyframes makesquare {
@@ -101,4 +117,13 @@ nav ul {
 /* remove default element CSS */
 a {
     all: unset;
+}
+/* styling for the nav buttons */
+.button {
+    background-color: black;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+
 }
