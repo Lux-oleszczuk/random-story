@@ -1,10 +1,21 @@
-body {
-    background-color: rgb(65, 99, 172);
+/* entire's body styling. set margins paddings, background etc. */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+#first-div {
+    background-color: rgb(39, 132, 110);
+}
+#rounded-img {
+    border: 3px solid rgb(116, 25, 25);
+    /* why the border-radius doesn't work :( */
+}
+/* divs shared background */
+.green-bg {
+    background-color: rgb(11, 65, 27);
 }
 h1 {
     font-size: 50px; color: rgb(38, 17, 96);
 }
-/* .image {
-    height: 512px;
-    width: 768;
-} */
