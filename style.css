@@ -81,8 +81,13 @@ h3 {
 }
 
 /* navigation style */
+#nav-placeholder{
+    height: 40px;
+}
 nav {
     background-color: rgb(56, 50, 50);
+    position: fixed;
+    width: 100vw;
 }
 /* nav ul selects any ul that is inside a nav */
 nav ul {
@@ -91,4 +96,9 @@ nav ul {
     padding: 20px;
     border-width: 2px;
     margin: 2px;
+    cursor: pointer;
+}
+/* remove default element CSS */
+a {
+    all: unset;
 }
